@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+:root {
+    --color-light-blue: #06BBCC;
+}
+
+.text-light-blu {
+    color: var(--color-light-blue);
+}
+
+.bg-lb {
+    background-color: #8ebabe3f;
+}
+
+.f-s-1 {
+    font-size: 50px;
+}
+
+.edu-card:hover {
+    background-color: var(--color-light-blue);
+    color: white;
+    transform: translatey(-10px);
+    transition: all 0.5s ease;
+}
+
+.edu-card:hover i {
+    color: white;
+}
