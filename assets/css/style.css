@@ -16,6 +16,9 @@ body {
 .bg-lb {
     background-color: #8ebabe3f;
 }
+.bg-bl{
+    background-color: var(--color-light-blue);
+}
 
 .f-s-1 {
     font-size: 50px;
