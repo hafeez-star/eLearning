@@ -128,7 +128,19 @@ body {
 
 
 }
-
+.cours-img{
+    position: relative;
+    overflow: hidden;
+}
 .web{
     position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: white;
+    
+}
+.cours-img:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    
 }
