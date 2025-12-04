@@ -35,3 +35,36 @@ body {
 .edu-card:hover i {
     color: white;
 }
+
+.btn:hover a{
+    color: black !important;
+}
+
+.about-card h4{
+    position: relative;
+}
+.about-img img{
+    height: 450px !important;
+    width: 450 !important;
+}
+.about-card h4::after {
+    content: " ";
+    width: 9%;
+    height: 2px;
+    
+    background-color: #06BBCC;
+    position: absolute;
+    top: 10px;
+    left: 110px;
+}
+
+.about-card h4::before {
+    content: " ";
+    width: 13%;
+    height: 2px;
+    
+    background-color: #06BBCC;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+}
