@@ -16,13 +16,14 @@ body {
 .bg-lb {
     background-color: #8ebabe3f;
 }
-.bg-bl{
+
+.bg-bl {
     background-color: var(--color-light-blue);
 }
 
 .f-s-1 {
     font-size: 50px;
-    
+
 }
 
 .edu-card:hover {
@@ -36,22 +37,24 @@ body {
     color: white;
 }
 
-.btn:hover a{
+.btn:hover a {
     color: black !important;
 }
 
-.about-card h4{
+.about-card h4 {
     position: relative;
 }
-.about-img img{
+
+.about-img img {
     height: 450px !important;
     width: 450 !important;
 }
+
 .about-card h4::after {
     content: " ";
     width: 9%;
     height: 2px;
-    
+
     background-color: #06BBCC;
     position: absolute;
     top: 10px;
@@ -62,9 +65,70 @@ body {
     content: " ";
     width: 13%;
     height: 2px;
-    
+
     background-color: #06BBCC;
     position: absolute;
     top: 20px;
     left: 110px;
+}
+
+.categri h4 {
+    position: relative;
+}
+
+.categri h4::after {
+    content: " ";
+    width: 40px;
+    height: 2px;
+
+    background-color: #06BBCC;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+
+}
+
+.categri h4::before {
+    content: " ";
+    width: 60px;
+    height: 2px;
+
+    background-color: #06BBCC;
+    position: absolute;
+    top: 18px;
+    left: 40px;
+
+}
+
+.categri h2 {
+    position: relative;
+}
+
+.categri h2::after {
+    content: " ";
+    width: 60px;
+    height: 2px;
+
+    background-color: #06BBCC;
+    position: absolute;
+    top:  -16px;
+    left: 250px;
+
+
+}
+
+.categri h2::before {
+    content: " ";
+    width: 40px;
+    height: 2px;
+    top: -24px;
+    background-color: #06BBCC;
+    position: absolute;
+    left: 250px;
+
+
+}
+
+.web{
+    position: absolute;
 }
