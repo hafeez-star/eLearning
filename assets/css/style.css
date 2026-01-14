@@ -8,6 +8,9 @@ body {
 :root {
     --color-light-blue: #06BBCC;
 }
+.bg-pr{
+   background-color: #b6e8eda5;
+}
 
 .text-light-blu {
     color: var(--color-light-blue);
@@ -177,4 +180,20 @@ body {
 .cour-img:hover img{
     transform: scale(1.1);
     transition: all 0.5s ease;
+}
+.pern{
+    position: relative;
+}
+.desgin{
+    width: 145px;
+    position: absolute;
+    top: -25px;
+    left: 25%;
+}
+.hover-img:hover img{
+      transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.hover-img{
+    overflow: hidden;
 }
