@@ -197,3 +197,14 @@ body {
 .hover-img{
     overflow: hidden;
 }
+.bg-gray-blue{
+    background-color: #181d38;
+}
+.bor{
+    border: 1px solid white;
+}
+.bor:hover{
+    background-color: white;
+    color:#06BBCC ;
+    transition: all .5s ease;
+}
